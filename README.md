@@ -1,6 +1,9 @@
 Random Number Guessing Game
+
 The Random Number Guessing Game is a Python program that generates a random number between 1 and 100 and prompts the user to guess the number. The program provides feedback to the user on whether their guess was too high or too low and keeps track of the number of guesses it took to find the correct answer.
+
 Requirements
+
 This program requires Python 3.x to be installed on your computer. You can download and install the latest version of Python from the official website: https://www.python.org/downloads/
 How to Use
 1.     Download or clone this repository to your local machine.
@@ -11,11 +14,14 @@ How to Use
 6.     The program will provide feedback on whether your guess was too high or too low, and prompt you to guess again.
 7.     Keep guessing until you correctly guess the number.
 8.     After you guess the correct number, the program will display the number of guesses it took you to find the answer.
+9.     
 Additional Features
+
 1.     You can quit the game at any time by entering "q" instead of a number.
 2.     The program includes a timer to display the time taken to play the game.
 
 Explanation:
+
 1.     We start by importing the necessary libraries, random and time.
 2.     The generate_number() function uses random.randint() to generate a random number between 1 and 100.
 3.     The play_game() function is where the actual game logic is implemented. It starts by generating a random number using generate_number(), and initializing the guesses counter to 0.
